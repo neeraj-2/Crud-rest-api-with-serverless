@@ -1,0 +1,24 @@
+{
+  "name": "dynamodb-crud-api-gateway",
+  "version": "1.0.0",
+  "description": "Let's explore serverless now",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neeraj-2/Crud-rest-api-with-serverless.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neeraj-2/Crud-rest-api-with-serverless/issues"
+  },
+  "homepage": "https://github.com/neeraj-2/Crud-rest-api-with-serverless#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.45.0",
+    "@aws-sdk/util-dynamodb": "^3.45.0",
+    "serverless-iam-roles-per-function": "^3.2.0"
+  }
+}
